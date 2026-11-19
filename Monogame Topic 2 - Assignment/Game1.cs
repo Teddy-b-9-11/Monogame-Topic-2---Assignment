@@ -9,6 +9,8 @@ namespace Monogame_Topic_2___Assignment
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
 
+        Texture2D circleTexure;
+
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
